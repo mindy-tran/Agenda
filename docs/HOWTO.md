@@ -307,7 +307,7 @@ So, all we really need to do is produce an Agenda object with the conflicts (ove
  ```python
  def conflicts(self) -> 'Agenda':
         """Returns an agenda consisting of the conflicts
-        (overlaps) between this agenda and the other.
+        (overlaps) between appointments in this agenda.
         """
 ```
 
