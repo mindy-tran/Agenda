@@ -4,7 +4,7 @@ You will create a source file called `appt.py`
 that defines two Python classes, 
 `Appt` for a single appointment and `Agenda`
 for a list of appointments. 
-`appt\_io.py` (provided) handles conversion 
+`appt_io.py` (provided) handles conversion 
 to and from text files, and two unit test files 
 `test_appt.py` and `test_agenda.py` provide 
 a simple suite of test cases to check your 
@@ -604,7 +604,7 @@ Consider the simple algorithm that uses nested
 loops to compare each element to every other 
 element. If there 1000 appointments, the first 
 must be compared to 999 other appointments, 
-the second must be compared to 9998 other 
+the second must be compared to 998 other 
 appointments, and so on. The total running 
 time would be O(n^2) where n is the number of 
 appointments. We must do better.
